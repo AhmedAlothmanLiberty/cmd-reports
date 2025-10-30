@@ -1,0 +1,17 @@
+{
+  "name": "cmd/reports",
+  "description": "DebtPlete CMD and SQL reports module",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Cmd\\Reports\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Cmd\\Reports\\ReportsServiceProvider"
+      ]
+    }
+  }
+}
